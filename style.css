@@ -1,10 +1,231 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
-html,body{
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(246, 246, 246);
+}
+header {
+  background-color: #fff8f3ff;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 35px;
+}
+ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: #474747ff;
+}
+.logo {
+  font-weight: bold;
+  font-size: 45px;
+}
+.logo span {
+  color: #fd6e0a;
+}
+/* Common button */
+.common-btn {
+  width: 150px;
+  height: 64px;
+  background-color: #fd6e0a;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-parent {
+  background-color: #fff8f3ff;
+}
+.hero-left {
+  width: 585px;
+  height: 262px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 25px;
+}
+.hero-intro {
+  color: #474747ff;
+  font-size: 45px;
+  font-weight: 600;
+}
+.hero-name {
+  color: #181818ff;
+  font-size: 85px;
+  font-weight: 700;
+}
+.hero-desc {
+  color: #757575ff;
+  font-size: 18px;
+  font-weight: 400;
+}
+.hero-button {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+}
+.contact {
+  width: 160px;
+  height: 64px;
+  border-radius: 5px;
+  border: 3px solid #fd6e0a;
+  color: #fd6e0a;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #fff8f3ff;
+}
+.about-me-parent{
+    padding: 115px;
+}
+.about-me-bg{
+    background-color: #fff8f3ff;
+    height: 550px;
+    width: 1140px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 25px;
+}
+.about-me-main{
     height: 100%;
-    width: 100%;
-    background-color: #212121;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.about-me-info{
+    height: 60px;
+    width: 782px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-me-info div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-me-main h2{
+    color: #181818FF;
+    font-size: 45px;
+}
+.about-me-main p{
+    color:#757575FF;;
+    font-size: 18px;
+    font-weight: 400;
+}
+.what-i-do-parent{
+    display: flex;
+    margin-bottom: 115px;
+}
+.cards-parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 18px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: white;
+    /* box-shadow: 3px 3px 55px black; */
+}
+.what-i-do-parent > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+.what-i-do-parent > div > h2{
+    font-size: 35px;
+    color:#181818FF;;
+}
+.what-i-do-parent > div > p{
+    font-size: 18px;
+    color: #757575FF;
+    text-align: center;
+}
+footer{
+    background-color: #fff8f3ff;
+}
+.footer-parent{
+    display: flex;
+    justify-content: space-between;
+    padding: 75px;
+}
+.left-footer{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: baseline; */
+    justify-content: flex-start;
+    gap: 18px;
+}
+.left-footer h2,
+.right-footer h2{
+    font-size: 35px;
+    font-weight: 700;
+    color:  #181818FF;
+}
+.left-footer p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575FF;
+}
+.footer-icons{
+    display: flex;
+    gap: 18px;
+    width: 120px;
+    height: 24px;
+}
+.right-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+}
+.right-footer form{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.right-footer input, textarea{
+    border: none;
+    border-radius: 5px;
+    padding: 19px;
+    width: 461px;
 }
