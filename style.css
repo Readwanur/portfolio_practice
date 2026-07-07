@@ -103,129 +103,234 @@ ul li a {
   cursor: pointer;
   background-color: #fff8f3ff;
 }
-.about-me-parent{
-    padding: 115px;
+.about-me-parent {
+  padding: 115px;
 }
-.about-me-bg{
-    background-color: #fff8f3ff;
-    height: 550px;
-    width: 1140px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border-radius: 25px;
+.about-me-bg {
+  background-color: #fff8f3ff;
+  height: 550px;
+  width: 1140px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 25px;
 }
-.about-me-main{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+.about-me-main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
-.about-me-info{
-    height: 60px;
-    width: 782px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.about-me-info {
+  height: 60px;
+  width: 782px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.about-me-info div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+.about-me-info div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
-.about-me-main h2{
-    color: #181818FF;
-    font-size: 45px;
+.about-me-main h2 {
+  color: #181818ff;
+  font-size: 45px;
 }
-.about-me-main p{
-    color:#757575FF;;
-    font-size: 18px;
-    font-weight: 400;
+.about-me-main p {
+  color: #757575ff;
+  font-size: 18px;
+  font-weight: 400;
 }
-.what-i-do-parent{
-    display: flex;
-    margin-bottom: 115px;
+.what-i-do-parent {
+  display: flex;
+  margin-bottom: 115px;
 }
-.cards-parent{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 18px;
+.cards-parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
 }
-.cards{
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    gap: 18px;
-    padding: 25px;
-    border-radius: 10px;
-    background-color: white;
-    /* box-shadow: 3px 3px 55px black; */
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 18px;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: white;
+  /* box-shadow: 3px 3px 55px black; */
 }
-.what-i-do-parent > div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 48px;
+.what-i-do-parent > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
 }
-.what-i-do-parent > div > h2{
-    font-size: 35px;
-    color:#181818FF;;
+.what-i-do-parent > div > h2 {
+  font-size: 35px;
+  color: #181818ff;
 }
-.what-i-do-parent > div > p{
-    font-size: 18px;
-    color: #757575FF;
-    text-align: center;
+.what-i-do-parent > div > p {
+  font-size: 18px;
+  color: #757575ff;
+  text-align: center;
 }
-footer{
-    background-color: #fff8f3ff;
+footer {
+  background-color: #fff8f3ff;
 }
-.footer-parent{
-    display: flex;
-    justify-content: space-between;
-    padding: 75px;
+.footer-parent {
+  display: flex;
+  justify-content: space-between;
+  padding: 75px;
 }
-.left-footer{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    /* align-items: baseline; */
-    justify-content: flex-start;
-    gap: 18px;
+.left-footer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: baseline; */
+  justify-content: flex-start;
+  gap: 18px;
 }
 .left-footer h2,
-.right-footer h2{
-    font-size: 35px;
-    font-weight: 700;
-    color:  #181818FF;
+.right-footer h2 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818ff;
 }
-.left-footer p{
-    font-size: 16px;
-    font-weight: 400;
-    color: #757575FF;
+.left-footer p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575ff;
 }
-.footer-icons{
-    display: flex;
-    gap: 18px;
-    width: 120px;
-    height: 24px;
+.footer-icons {
+  display: flex;
+  gap: 18px;
+  width: 120px;
+  height: 24px;
 }
-.right-footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 18px;
+.right-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
 }
-.right-footer form{
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
+.right-footer form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 }
-.right-footer input, textarea{
-    border: none;
-    border-radius: 5px;
-    padding: 19px;
-    width: 461px;
+.right-footer input,
+textarea {
+  border: none;
+  border-radius: 5px;
+  padding: 19px;
+  width: 461px;
+}
+.my-amazing-work-parent {
+  margin-bottom: 115px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "one two  three"
+    "one two six"
+    "four two six"
+    "four two six"
+    "four five six";
+  gap: 18px;
+}
+.gallery img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.my-amazing-work-parent h2 {
+  color: #181818ff;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+.one {
+  grid-area: one;
+}
+.two {
+  grid-area: two;
+}
+.three {
+  grid-area: three;
+}
+.four {
+  grid-area: four;
+}
+.five {
+  grid-area: five;
+}
+.six {
+  grid-area: six;
+}
+.summary-resume-parent{
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-bottom: 115px;
+}
+.summary-resume-parent>h2{
+  text-align: center;
+  color: #181818FF;
+  font-size: 35px;
+  font-weight: 700;
+}
+.summary-resume{
+  display: flex;
+  justify-content: space-around;
+}
+.summary-resume>h2{
+  color: #474747FF;
+  font-size: 30px;
+  font-weight: 700;
+}
+.education{
+  display: flex;
+  flex-direction: column;
+}
+.experience{
+  display: flex;
+  flex-direction: column;
+}
+.resume-card{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 25px 0px;
+  border-bottom: 2px solid #d1d1d1FF;;
+}
+.resume-card h3{
+  font-size: 25px;
+  font-weight: 700;
+  color: #474747FF;
+}
+.resume-varsity{
+  color: #757575FF;
+  font-size: 20px;
+  font-weight: 600;
+}
+.resume-desc{
+  color: #757575FF;
+  font-size: 16px;
+  font-weight: 400;
+}
+.education-title{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
